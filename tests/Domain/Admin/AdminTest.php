@@ -1,5 +1,4 @@
 <?php
-
 namespace Tests\Domain\Admin;
 
 use Storage;
@@ -46,7 +45,7 @@ class AdminTest extends TestCase
             ->create(['role' => 'admin']);
 
         $users->each(
-            fn($user) => $this
+            fn ($user) => $this
                 ->actingAs($admin)
                 ->getJson('/api/admin/users?page=1')
                 ->assertStatus(200)

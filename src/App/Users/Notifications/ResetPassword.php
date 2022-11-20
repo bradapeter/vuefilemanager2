@@ -14,7 +14,8 @@ class ResetPassword extends Notification
      */
     public function __construct(
         public string $token
-    ) {}
+    ) {
+    }
 
     /**
      * Get the notification's delivery channels.

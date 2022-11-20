@@ -1,13 +1,13 @@
 <?php
 namespace Tests\App\Restrictions;
 
-use Illuminate\Http\UploadedFile;
-use Storage;
 use Str;
+use Storage;
 use Tests\TestCase;
 use App\Users\Models\User;
 use Domain\Files\Models\File;
 use Domain\Sharing\Models\Share;
+use Illuminate\Http\UploadedFile;
 use Domain\Settings\Models\Setting;
 
 class DefaultRestrictionsTest extends TestCase

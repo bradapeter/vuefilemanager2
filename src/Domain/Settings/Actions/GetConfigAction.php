@@ -1,5 +1,4 @@
 <?php
-
 namespace Domain\Settings\Actions;
 
 use DB;
@@ -15,7 +14,8 @@ class GetConfigAction
 {
     public function __construct(
         public GetServerSetupStatusAction $getServerSetupStatus,
-    ) {}
+    ) {
+    }
 
     public function __invoke(): array
     {

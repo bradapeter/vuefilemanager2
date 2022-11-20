@@ -1,6 +1,7 @@
 <?php
 namespace Domain\Browsing\Controllers;
 
+use Str;
 use Domain\Files\Models\File;
 use Domain\Sharing\Models\Share;
 use Domain\Folders\Models\Folder;
@@ -10,7 +11,6 @@ use Domain\Folders\Resources\FolderResource;
 use Domain\Folders\Resources\FolderCollection;
 use Domain\Sharing\Actions\ProtectShareRecordAction;
 use Domain\Sharing\Actions\VerifyAccessToItemAction;
-use Str;
 
 /**
  * Browse shared folder
@@ -27,7 +27,6 @@ class VisitorBrowseFolderController
         string $id,
         Share $shared,
     ): JsonResponse {
-
         $folderId = Str::isUuid($id)
             ? $id
             : $shared->item_id;

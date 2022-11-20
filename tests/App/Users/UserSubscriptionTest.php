@@ -19,17 +19,17 @@ class UserSubscriptionTest extends TestCase
     {
         $plan = Plan::factory()
             ->has(PlanFixedFeature::factory()
-            ->count(2)
-            ->sequence(
-                [
-                    'key'   => 'max_storage_amount',
-                    'value' => 200,
-                ],
-                [
-                    'key'   => 'max_team_members',
-                    'value' => 20,
-                ],
-            ), 'fixedFeatures')
+                ->count(2)
+                ->sequence(
+                    [
+                        'key'   => 'max_storage_amount',
+                        'value' => 200,
+                    ],
+                    [
+                        'key'   => 'max_team_members',
+                        'value' => 20,
+                    ],
+                ), 'fixedFeatures')
             ->create();
 
         $user = User::factory()
@@ -53,17 +53,17 @@ class UserSubscriptionTest extends TestCase
     {
         $plan = Plan::factory()
             ->has(PlanFixedFeature::factory()
-            ->count(2)
-            ->sequence(
-                [
-                    'key'   => 'max_storage_amount',
-                    'value' => 200,
-                ],
-                [
-                    'key'   => 'max_team_members',
-                    'value' => 20,
-                ],
-            ), 'fixedFeatures')
+                ->count(2)
+                ->sequence(
+                    [
+                        'key'   => 'max_storage_amount',
+                        'value' => 200,
+                    ],
+                    [
+                        'key'   => 'max_team_members',
+                        'value' => 20,
+                    ],
+                ), 'fixedFeatures')
             ->create();
 
         $user = User::factory()

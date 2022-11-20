@@ -1,5 +1,4 @@
 <?php
-
 namespace Domain\Admin\Actions;
 
 use DB;

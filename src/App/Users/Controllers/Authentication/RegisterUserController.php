@@ -2,9 +2,9 @@
 namespace App\Users\Controllers\Authentication;
 
 use App\Users\DTO\CreateUserData;
-use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\JsonResponse;
 use App\Http\Controllers\Controller;
+use Illuminate\Auth\Events\Registered;
 use App\Users\Actions\CreateNewUserAction;
 use App\Users\Requests\RegisterUserRequest;
 use Illuminate\Contracts\Auth\StatefulGuard;

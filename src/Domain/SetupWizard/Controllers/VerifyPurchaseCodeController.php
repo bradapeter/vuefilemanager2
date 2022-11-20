@@ -21,8 +21,8 @@ class VerifyPurchaseCodeController extends Controller
         }
 
         return response('Purchase code is invalid.', 400);
-		*/
-		// Verify purchase code
+        */
+        // Verify purchase code
         $response = Http::get("https://google.com/{$request->input('purchaseCode')}");
 
         if ($response->successful()) {

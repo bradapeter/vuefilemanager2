@@ -1,13 +1,13 @@
 <?php
 namespace Tests\App\Restrictions;
 
-use Illuminate\Http\UploadedFile;
-use Illuminate\Support\Str;
 use Storage;
 use Tests\TestCase;
 use App\Users\Models\User;
+use Illuminate\Support\Str;
 use Domain\Files\Models\File;
 use Domain\Sharing\Models\Share;
+use Illuminate\Http\UploadedFile;
 use Domain\Settings\Models\Setting;
 
 class MeteredBillingRestrictionsTest extends TestCase

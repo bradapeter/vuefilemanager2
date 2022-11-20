@@ -3,7 +3,7 @@ namespace App\Users\Rules;
 
 use GuzzleHttp\Client;
 use Illuminate\Contracts\Validation\Rule;
- 
+
 class ReCaptchaRules implements Rule
 {
     /**
