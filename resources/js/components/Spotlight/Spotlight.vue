@@ -306,12 +306,12 @@
 
 <script>
 import { events } from '../../bus'
-import ItemList from '../UI/Entries/ItemList'
-import MemberAvatar from '../UI/Others/MemberAvatar'
-import Spinner from '../UI/Others/Spinner'
-import CategoryName from './Components/CategoryName'
-import FilterSuggestion from './Components/FilterSuggestion'
-import KeyboardHints from './Components/KeyboardHints'
+import ItemList from '../UI/Entries/ItemList.vue'
+import MemberAvatar from '../UI/Others/MemberAvatar.vue'
+import Spinner from '../UI/Others/Spinner.vue'
+import CategoryName from './Components/CategoryName.vue'
+import FilterSuggestion from './Components/FilterSuggestion.vue'
+import KeyboardHints from './Components/KeyboardHints.vue'
 import axios from 'axios'
 import { debounce } from 'lodash'
 import {

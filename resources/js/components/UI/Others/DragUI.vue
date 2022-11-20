@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import TitlePreview from '../Labels/TitlePreview'
+import TitlePreview from '../Labels/TitlePreview.vue'
 import { mapGetters } from 'vuex'
 import { events } from '../../../bus'
 

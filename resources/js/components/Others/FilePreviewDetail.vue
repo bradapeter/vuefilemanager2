@@ -36,7 +36,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import { includes } from 'lodash'
-import ImageFile from "../FilePreview/Media/ImageFile";
+import ImageFile from "../FilePreview/Media/ImageFile.vue";
 
 export default {
     name: 'FilePreview',

@@ -23,10 +23,10 @@
 </template>
 
 <script>
-import TeamMembersPreview from '../../Teams/Components/TeamMembersPreview'
-import TeamMembersButton from '../../Teams/Components/TeamMembersButton'
+import TeamMembersPreview from '../../Teams/Components/TeamMembersPreview.vue'
+import TeamMembersButton from '../../Teams/Components/TeamMembersButton.vue'
 import { MenuIcon } from 'vue-feather-icons'
-import NavigationBar from './NavigationBar'
+import NavigationBar from './NavigationBar.vue'
 
 export default {
     name: 'MobileToolBar',

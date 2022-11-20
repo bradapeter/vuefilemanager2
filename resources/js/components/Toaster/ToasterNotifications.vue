@@ -24,10 +24,10 @@
 </template>
 
 <script>
-import Notification from '../Notifications/Components/Notification'
-import ToasterWrapper from './ToasterWrapper'
+import Notification from '../Notifications/Components/Notification.vue'
+import ToasterWrapper from './ToasterWrapper.vue'
 import {events} from '../../bus'
-import Toaster from './Toaster'
+import Toaster from './Toaster.vue'
 
 export default {
 	components: {

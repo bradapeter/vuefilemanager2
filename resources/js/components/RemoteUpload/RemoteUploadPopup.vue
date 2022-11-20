@@ -38,13 +38,13 @@
 
 <script>
 import { ValidationProvider, ValidationObserver } from 'vee-validate/dist/vee-validate.full'
-import PopupWrapper from '../Popups/Components/PopupWrapper'
-import PopupContent from '../Popups/Components/PopupContent'
-import PopupActions from '../Popups/Components/PopupActions'
-import PopupHeader from '../Popups/Components/PopupHeader'
-import AppInputText from '../Forms/Layouts/AppInputText'
+import PopupWrapper from '../Popups/Components/PopupWrapper.vue'
+import PopupContent from '../Popups/Components/PopupContent.vue'
+import PopupActions from '../Popups/Components/PopupActions.vue'
+import PopupHeader from '../Popups/Components/PopupHeader.vue'
+import AppInputText from '../Forms/Layouts/AppInputText.vue'
 import { required } from 'vee-validate/dist/rules'
-import ButtonBase from '../UI/Buttons/ButtonBase'
+import ButtonBase from '../UI/Buttons/ButtonBase.vue'
 import { events } from '../../bus'
 import i18n from "../../i18n";
 

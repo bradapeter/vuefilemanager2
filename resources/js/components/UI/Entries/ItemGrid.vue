@@ -129,12 +129,12 @@
 </template>
 
 <script>
-import FolderIcon from '../../Icons/FolderIcon'
+import FolderIcon from '../../Icons/FolderIcon.vue'
 import { LinkIcon, MoreHorizontalIcon, EyeIcon } from 'vue-feather-icons'
-import FileIconThumbnail from '../../Icons/FileIconThumbnail'
-import MemberAvatar from '../Others/MemberAvatar'
-import Emoji from '../../Emoji/Emoji'
-import CheckBox from '../../Inputs/CheckBox'
+import FileIconThumbnail from '../../Icons/FileIconThumbnail.vue'
+import MemberAvatar from '../Others/MemberAvatar.vue'
+import Emoji from '../../Emoji/Emoji.vue'
+import CheckBox from '../../Inputs/CheckBox.vue'
 import { debounce } from 'lodash'
 import { mapGetters } from 'vuex'
 import { events } from '../../../bus'

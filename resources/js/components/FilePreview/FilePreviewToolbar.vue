@@ -103,12 +103,12 @@
 </template>
 
 <script>
-import PopoverWrapper from '../UI/Popover/PopoverWrapper'
-import PopoverItem from '../UI/Popover/PopoverItem'
-import OptionGroup from '../Menus/Components/OptionGroup'
-import Option from '../Menus/Components/Option'
+import PopoverWrapper from '../UI/Popover/PopoverWrapper.vue'
+import PopoverItem from '../UI/Popover/PopoverItem.vue'
+import OptionGroup from '../Menus/Components/OptionGroup.vue'
+import Option from '../Menus/Components/Option.vue'
 
-import ToolbarButton from '../UI/Buttons/ToolbarButton'
+import ToolbarButton from '../UI/Buttons/ToolbarButton.vue'
 import { XIcon, MoreHorizontalIcon } from 'vue-feather-icons'
 import { mapGetters } from 'vuex'
 import { events } from '../../bus'

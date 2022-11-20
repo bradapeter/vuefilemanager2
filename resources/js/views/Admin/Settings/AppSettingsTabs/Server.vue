@@ -218,12 +218,12 @@
 
 <script>
 import { CheckIcon, XIcon, DownloadCloudIcon } from 'vue-feather-icons'
-import FormLabel from '../../../../components/UI/Labels/FormLabel'
-import PageTab from '../../../../components/Layout/PageTab'
-import InfoBox from '../../../../components/UI/Others/InfoBox'
+import FormLabel from '../../../../components/UI/Labels/FormLabel.vue'
+import PageTab from '../../../../components/Layout/PageTab.vue'
+import InfoBox from '../../../../components/UI/Others/InfoBox.vue'
 import { mapGetters } from 'vuex'
 import axios from 'axios'
-import ButtonBase from "../../../../components/UI/Buttons/ButtonBase";
+import ButtonBase from "../../../../components/UI/Buttons/ButtonBase.vue";
 
 export default {
     name: 'Server',

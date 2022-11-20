@@ -107,14 +107,14 @@
 </template>
 
 <script>
-import AppInputText from '../../../components/Forms/Layouts/AppInputText'
+import AppInputText from '../../../components/Forms/Layouts/AppInputText.vue'
 import { ValidationProvider, ValidationObserver } from 'vee-validate/dist/vee-validate.full'
-import SelectInput from '../../../components/Inputs/SelectInput'
-import ImageInput from '../../../components/Inputs/ImageInput'
-import FormLabel from '../../../components/UI/Labels/FormLabel'
-import MobileHeader from '../../../components/Mobile/MobileHeader'
-import SectionTitle from '../../../components/UI/Labels/SectionTitle'
-import ButtonBase from '../../../components/UI/Buttons/ButtonBase'
+import SelectInput from '../../../components/Inputs/SelectInput.vue'
+import ImageInput from '../../../components/Inputs/ImageInput.vue'
+import FormLabel from '../../../components/UI/Labels/FormLabel.vue'
+import MobileHeader from '../../../components/Mobile/MobileHeader.vue'
+import SectionTitle from '../../../components/UI/Labels/SectionTitle.vue'
+import ButtonBase from '../../../components/UI/Buttons/ButtonBase.vue'
 import { required } from 'vee-validate/dist/rules'
 import { mapGetters } from 'vuex'
 import { events } from '../../../bus'

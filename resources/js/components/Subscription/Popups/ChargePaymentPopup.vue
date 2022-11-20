@@ -63,15 +63,15 @@
 </template>
 
 <script>
-import PopupWrapper from '../../Popups/Components/PopupWrapper'
-import PopupActions from '../../Popups/Components/PopupActions'
-import PopupContent from '../../Popups/Components/PopupContent'
-import PopupHeader from '../../Popups/Components/PopupHeader'
-import ButtonBase from '../../UI/Buttons/ButtonBase'
+import PopupWrapper from '../../Popups/Components/PopupWrapper.vue'
+import PopupActions from '../../Popups/Components/PopupActions.vue'
+import PopupContent from '../../Popups/Components/PopupContent.vue'
+import PopupHeader from '../../Popups/Components/PopupHeader.vue'
+import ButtonBase from '../../UI/Buttons/ButtonBase.vue'
 import { loadScript } from '@paypal/paypal-js'
-import PaymentMethod from '../PaymentMethod'
-import Spinner from '../../UI/Others/Spinner'
-import InfoBox from "../../UI/Others/InfoBox"
+import PaymentMethod from '../PaymentMethod.vue'
+import Spinner from '../../UI/Others/Spinner.vue'
+import InfoBox from "../../UI/Others/InfoBox.vue"
 import { events } from '../../../bus'
 import { mapGetters } from 'vuex'
 import axios from "axios";

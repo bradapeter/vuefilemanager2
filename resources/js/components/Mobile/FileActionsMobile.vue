@@ -26,8 +26,8 @@
 </template>
 
 <script>
-import MobileActionButton from '../UI/Buttons/MobileActionButton'
-import UploadProgress from '../UI/Others/UploadProgress'
+import MobileActionButton from '../UI/Buttons/MobileActionButton.vue'
+import UploadProgress from '../UI/Others/UploadProgress.vue'
 import { mapGetters } from 'vuex'
 
 export default {
