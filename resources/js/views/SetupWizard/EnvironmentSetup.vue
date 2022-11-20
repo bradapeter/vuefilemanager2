@@ -65,21 +65,21 @@
 
 <script>
 import { ValidationProvider, ValidationObserver } from 'vee-validate/dist/vee-validate.full'
-import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper'
-import SelectInput from '../../components/Inputs/SelectInput'
-import FormLabel from '../../components/UI/Labels/FormLabel'
-import StorageSetup from '../../components/Forms/StorageSetup'
-import AppInputText from '../../components/Forms/Layouts/AppInputText'
-import InfoBox from '../../components/UI/Others/InfoBox'
-import AuthContent from '../../components/Layout/AuthPages/AuthContent'
-import AuthButton from '../../components/UI/Buttons/AuthButton'
-import MailSetup from '../../components/Forms/MailSetup'
+import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper.vue'
+import SelectInput from '../../components/Inputs/SelectInput.vue'
+import FormLabel from '../../components/UI/Labels/FormLabel.vue'
+import StorageSetup from '../../components/Forms/StorageSetup.vue'
+import AppInputText from '../../components/Forms/Layouts/AppInputText.vue'
+import InfoBox from '../../components/UI/Others/InfoBox.vue'
+import AuthContent from '../../components/Layout/AuthPages/AuthContent.vue'
+import AuthButton from '../../components/UI/Buttons/AuthButton.vue'
+import MailSetup from '../../components/Forms/MailSetup.vue'
 import { required } from 'vee-validate/dist/rules'
 import { SettingsIcon } from 'vue-feather-icons'
-import Headline from '../../components/UI/Labels/LogoHeadline'
+import Headline from '../../components/UI/Labels/LogoHeadline.vue'
 import { events } from '../../bus'
 import axios from 'axios'
-import BroadcastSetup from "../../components/Forms/BroadcastSetup";
+import BroadcastSetup from "../../components/Forms/BroadcastSetup.vue";
 
 export default {
     name: 'EnvironmentSetup',

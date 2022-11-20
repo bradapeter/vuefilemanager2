@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import DotLabel from './DotLabel'
+import DotLabel from './DotLabel.vue'
 
 export default {
     name: 'ProgressLine',

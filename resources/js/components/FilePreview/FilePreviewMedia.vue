@@ -55,12 +55,12 @@
 
 <script>
 import { ChevronLeftIcon, ChevronRightIcon } from 'vue-feather-icons'
-import ToolbarButton from '../UI/Buttons/ToolbarButton'
-import ItemGrid from "../UI/Entries/ItemGrid"
-import ImageFile from './Media/ImageFile'
-import Audio from './Media/Audio'
-import Video from './Media/Video'
-import Spinner from '../UI/Others/Spinner'
+import ToolbarButton from '../UI/Buttons/ToolbarButton.vue'
+import ItemGrid from "../UI/Entries/ItemGrid.vue"
+import ImageFile from './Media/ImageFile.vue'
+import Audio from './Media/Audio.vue'
+import Video from './Media/Video.vue'
+import Spinner from '../UI/Others/Spinner.vue'
 import { mapGetters } from 'vuex'
 import { events } from '../../bus'
 

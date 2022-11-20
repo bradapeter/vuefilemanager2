@@ -157,9 +157,9 @@
 
 <script>
 	import {ValidationObserver, ValidationProvider} from 'vee-validate/dist/vee-validate.full'
-	import SelectInput from '../Inputs/SelectInput'
-	import AppInputText from './Layouts/AppInputText'
-	import FormLabel from '../UI/Labels/FormLabel'
+	import SelectInput from '../Inputs/SelectInput.vue'
+	import AppInputText from './Layouts/AppInputText.vue'
+	import FormLabel from '../UI/Labels/FormLabel.vue'
 
 	export default {
 		name: 'StorageSetup',

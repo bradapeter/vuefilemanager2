@@ -44,18 +44,18 @@
 </template>
 
 <script>
-import PopupWrapper from '../../Popups/Components/PopupWrapper'
-import PopupActions from '../../Popups/Components/PopupActions'
-import PopupContent from '../../Popups/Components/PopupContent'
-import PopupHeader from '../../Popups/Components/PopupHeader'
-import ButtonBase from '../../UI/Buttons/ButtonBase'
-import PlanDetail from '../PlanDetail'
+import PopupWrapper from '../../Popups/Components/PopupWrapper.vue'
+import PopupActions from '../../Popups/Components/PopupActions.vue'
+import PopupContent from '../../Popups/Components/PopupContent.vue'
+import PopupHeader from '../../Popups/Components/PopupHeader.vue'
+import ButtonBase from '../../UI/Buttons/ButtonBase.vue'
+import PlanDetail from '../PlanDetail.vue'
 import {mapGetters} from 'vuex'
 import {events} from '../../../bus'
 import axios from 'axios'
-import Spinner from '../../UI/Others/Spinner'
-import InfoBox from '../../UI/Others/InfoBox'
-import PlanPeriodSwitcher from "../PlanPeriodSwitcher";
+import Spinner from '../../UI/Others/Spinner.vue'
+import InfoBox from '../../UI/Others/InfoBox.vue'
+import PlanPeriodSwitcher from "../PlanPeriodSwitcher.vue";
 
 export default {
     name: 'ChangeSubscriptionPopup',

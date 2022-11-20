@@ -108,11 +108,11 @@
 
 <script>
 	import {ValidationObserver, ValidationProvider} from 'vee-validate/dist/vee-validate.full'
-	import SelectInput from '../Inputs/SelectInput'
-	import AppInputText from './Layouts/AppInputText'
-	import FormLabel from '../UI/Labels/FormLabel'
-	import AppInputSwitch from "./Layouts/AppInputSwitch";
-	import SwitchInput from "../Inputs/SwitchInput";
+	import SelectInput from '../Inputs/SelectInput.vue'
+	import AppInputText from './Layouts/AppInputText.vue'
+	import FormLabel from '../UI/Labels/FormLabel.vue'
+	import AppInputSwitch from "./Layouts/AppInputSwitch.vue";
+	import SwitchInput from "../Inputs/SwitchInput.vue";
 
 	export default {
 		name: 'BroadcastSetup',

@@ -101,7 +101,7 @@
 </template>
 <script>
 import { RefreshCwIcon, TrendingUpIcon, GiftIcon, CheckIcon, XIcon, MailIcon, UserPlusIcon, UploadCloudIcon, ChevronRightIcon, AlertTriangleIcon } from 'vue-feather-icons'
-import MemberAvatar from '../../UI/Others/MemberAvatar'
+import MemberAvatar from '../../UI/Others/MemberAvatar.vue'
 import {events} from "../../../bus";
 
 export default {

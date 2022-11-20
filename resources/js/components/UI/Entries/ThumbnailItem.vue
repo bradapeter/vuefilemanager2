@@ -69,11 +69,11 @@
 
 <script>
 import { LinkIcon, EyeIcon } from 'vue-feather-icons'
-import FileIconThumbnail from '../../Icons/FileIconThumbnail'
-import MemberAvatar from '../Others/MemberAvatar'
-import Emoji from '../../Emoji/Emoji'
+import FileIconThumbnail from '../../Icons/FileIconThumbnail.vue'
+import MemberAvatar from '../Others/MemberAvatar.vue'
+import Emoji from '../../Emoji/Emoji.vue'
 import { mapGetters } from 'vuex'
-import FolderIcon from '../../Icons/FolderIcon'
+import FolderIcon from '../../Icons/FolderIcon.vue'
 
 export default {
     name: 'ThumbnailItem',

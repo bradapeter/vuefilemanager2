@@ -105,12 +105,12 @@
 </template>
 
 <script>
-import Emoji from '../../Emoji/Emoji'
-import FolderIcon from '../../Icons/FolderIcon'
+import Emoji from '../../Emoji/Emoji.vue'
+import FolderIcon from '../../Icons/FolderIcon.vue'
 import { LinkIcon, MoreVerticalIcon, EyeIcon } from 'vue-feather-icons'
-import FileIconThumbnail from '../../Icons/FileIconThumbnail'
-import MemberAvatar from '../Others/MemberAvatar'
-import CheckBox from '../../Inputs/CheckBox'
+import FileIconThumbnail from '../../Icons/FileIconThumbnail.vue'
+import MemberAvatar from '../Others/MemberAvatar.vue'
+import CheckBox from '../../Inputs/CheckBox.vue'
 import { debounce } from 'lodash'
 import { mapGetters } from 'vuex'
 import { events } from '../../../bus'

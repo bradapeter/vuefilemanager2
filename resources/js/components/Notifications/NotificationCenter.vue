@@ -70,8 +70,8 @@
 </template>
 
 <script>
-import MobileActionButton from '../UI/Buttons/MobileActionButton'
-import Notification from './Components/Notification'
+import MobileActionButton from '../UI/Buttons/MobileActionButton.vue'
+import Notification from './Components/Notification.vue'
 import vClickOutside from 'v-click-outside'
 import { mapGetters } from 'vuex'
 

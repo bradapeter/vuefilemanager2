@@ -149,12 +149,12 @@
 </template>
 
 <script>
-import Headline from '../../components/UI/Labels/LogoHeadline'
-import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper'
+import Headline from '../../components/UI/Labels/LogoHeadline.vue'
+import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper.vue'
 import { ValidationProvider, ValidationObserver } from 'vee-validate/dist/vee-validate.full'
-import AuthContent from '../../components/Layout/AuthPages/AuthContent'
-import AuthButton from '../../components/UI/Buttons/AuthButton'
-import SocialLoginButtons from '../../components/UI/Buttons/SocialLoginButtons'
+import AuthContent from '../../components/Layout/AuthPages/AuthContent.vue'
+import AuthButton from '../../components/UI/Buttons/AuthButton.vue'
+import SocialLoginButtons from '../../components/UI/Buttons/SocialLoginButtons.vue'
 import { required } from 'vee-validate/dist/rules'
 import { mapGetters } from 'vuex'
 import { events } from '../../bus'

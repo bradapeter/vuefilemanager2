@@ -228,16 +228,16 @@
 </template>
 
 <script>
-import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper'
+import AuthContentWrapper from '../../components/Layout/AuthPages/AuthContentWrapper.vue'
 import { ValidationObserver, ValidationProvider } from 'vee-validate/dist/vee-validate.full'
-import SocialLoginButtons from '../../components/UI/Buttons/SocialLoginButtons'
-import AuthContent from '../../components/Layout/AuthPages/AuthContent'
-import AuthButton from '../../components/UI/Buttons/AuthButton'
-import Spinner from '../../components/UI/Others/Spinner'
+import SocialLoginButtons from '../../components/UI/Buttons/SocialLoginButtons.vue'
+import AuthContent from '../../components/Layout/AuthPages/AuthContent.vue'
+import AuthButton from '../../components/UI/Buttons/AuthButton.vue'
+import Spinner from '../../components/UI/Others/Spinner.vue'
 import { mapGetters } from 'vuex'
 import { events } from '../../bus'
 import axios from 'axios'
-import Headline from '../../components/UI/Labels/LogoHeadline'
+import Headline from '../../components/UI/Labels/LogoHeadline.vue'
 
 export default {
     name: 'SignIn',

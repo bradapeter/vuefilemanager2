@@ -74,11 +74,11 @@
 
 <script>
 import { ValidationProvider, ValidationObserver } from 'vee-validate/dist/vee-validate.full'
-import PageTitle from '../../components/IndexPage/Components/PageTitle'
-import PageFooter from '../../components/IndexPage/IndexPageFooter'
-import Navigation from '../../components/IndexPage/IndexNavigation'
-import InfoBox from '../../components/UI/Others/InfoBox'
-import AuthButton from '../../components/UI/Buttons/AuthButton'
+import PageTitle from '../../components/IndexPage/Components/PageTitle.vue'
+import PageFooter from '../../components/IndexPage/IndexPageFooter.vue'
+import Navigation from '../../components/IndexPage/IndexNavigation.vue'
+import InfoBox from '../../components/UI/Others/InfoBox.vue'
+import AuthButton from '../../components/UI/Buttons/AuthButton.vue'
 import { required } from 'vee-validate/dist/rules'
 import { mapGetters } from 'vuex'
 import axios from 'axios'
