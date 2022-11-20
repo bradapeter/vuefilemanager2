@@ -377,13 +377,13 @@ npm install
 
 To compiles and hot-reloads for front-end development. Then run this command:
 ```
-npm run hot
+npm run dev
 ```
 
 ### Building Your App for Production
 To compiles for production build, run this command
 ```
-npm run prod
+npm run build
 ```
 
 ## Support
