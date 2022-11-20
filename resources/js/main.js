@@ -1,4 +1,4 @@
-require('./bootstrap')
+import './bootstrap'
 import Vue from 'vue'
 import i18n from './i18n'
 import VueRouter from 'vue-router'
